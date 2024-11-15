@@ -1,7 +1,6 @@
 Face Mask Detection using OpenCV and Keras
 Overview
 This project implements a Face Mask Detection system that identifies whether a person is wearing a mask or not in real-time. It leverages deep learning models built using Keras for classification and OpenCV for real-time video processing. The system can be used in public areas to ensure safety and compliance with mask mandates.
-
 Features
 Real-time Detection: Detects faces and identifies mask usage in live video streams.
 Pre-Trained Model: Utilizes a convolutional neural network (CNN) trained on labeled face mask datasets.
@@ -14,8 +13,3 @@ Keras: Deep learning framework for building and training the classification mode
 OpenCV: Library for image and video processing.
 NumPy: For numerical computations.
 Matplotlib/Seaborn: For visualizing data and results.
-Dataset
-The model is trained on a publicly available dataset of masked and unmasked faces. The dataset contains:
-
-Images of people with masks.
-Images of people without masks.
